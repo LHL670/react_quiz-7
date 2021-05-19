@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import Link from "@material-ui/core/Link";
-import Greeting from "./greeting";
+import Greeting from "./greet";
 
 function LoginButton(props) {
   return (

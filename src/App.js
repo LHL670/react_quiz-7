@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LoginControl from "./loginCon";
+import LoginControl from "./loginControl";
 import "./App.css";
 
 class App extends Component {

@@ -1,5 +1,3 @@
-
-
 import React, { Component } from 'react';
 
 
@@ -9,12 +7,13 @@ class TodoTitle extends Component {
     }
 }
 
-
 const headerStyle = {
-    
-    color: 'black',
+    background:"black",
+    color: "#fff",
     textAlign: 'center',
     padding: '10px'
 }
-export default TodoTitle;
 
+
+
+export default TodoTitle;

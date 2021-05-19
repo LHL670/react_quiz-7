@@ -47,3 +47,24 @@ class TodoList extends React.Component {
 }
 
 export default TodoList;
+/*import React from "react";
+import TodoListItem from "./TodoItem";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+export default class TodoList extends React.Component {
+    render() {
+      var items = this.props.items.map((item, index) => {
+        return (
+          <TodoListItem
+            key={index}
+            item={item}
+            index={index}
+            removeItem={this.props.removeItem}
+            TodoDone={this.props.TodoDone}
+          />
+        );
+      });
+      return <ul className="list-group"> {items} </ul>;
+    }
+  }*/

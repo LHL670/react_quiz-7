@@ -6,11 +6,18 @@ import Todo from "./todoapp";
 function UserGreeting(props) {
   return   (
     <div>
-      <h1> Hi CGUer, please sign in.</h1>
+      <h1 style={headerStyle} > Hi CGUer, please sign in.</h1>
       <Login/>
     </div>
   )
    
+}
+const headerStyle = {
+  background:"black",
+  color: "#fff",
+  textAlign: 'center',
+  padding: '10px'
+
 }
 function GuestGreeting(props) {
     return  (

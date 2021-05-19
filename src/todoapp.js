@@ -1,8 +1,8 @@
 import "./App.css";
 import React, {Component} from "react";
 import TodoList from "./TodoList";
-import TodoAddForm from "./TodoForm";
-import TodoTitle from "./title";
+import TodoAddForm from "./TodoAddForm";
+import TodoTitle from "./TodoHeader";
 
 class Todoapp extends Component {
   state = {
