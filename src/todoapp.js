@@ -1,10 +1,9 @@
+import React, { Component } from "react";
 import "./App.css";
-import React, {Component} from "react";
-import TodoList from "./TodoList";
-import TodoAddForm from "./TodoAddForm";
-import TodoTitle from "./TodoHeader";
-
-class Todoapp extends Component {
+import TodoForm from "./todoform";
+import TodoList from "./todolist";
+import Title from "./title"
+class Todo extends Component {
   state = {
     todoItems: {}
   };
@@ -33,8 +32,8 @@ class Todoapp extends Component {
   render() {
     return (
       <div className="App">
-        <TodoTitle />
-        <TodoAddForm addToDoItems={this.addToDoItems} />
+        <Title/>
+        <TodoForm addToDoItems={this.addToDoItems} />
         <ul>
           {Object.keys(this.state.todoItems).map(key => (
             <TodoList
@@ -50,7 +49,5 @@ class Todoapp extends Component {
     );
   }
 }
-const Todo = () => {
-  return <Todoapp initItems/>;
-};
+
 export default Todo;

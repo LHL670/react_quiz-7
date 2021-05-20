@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Login from "./login";
+import SignIn from "./SignIn";
 import Todo from "./todoapp";
 
 function UserGreeting(props) {
   return   (
     <div>
       <h1 style={headerStyle} > Hi CGUer, please sign in.</h1>
-      <Login/>
+      <SignIn/>
     </div>
   )
    

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class TodoTitle extends Component {
+class Title extends Component {
     render () {
         return <h1 style={headerStyle}>CGU Todo list</h1>
     }
@@ -16,4 +16,4 @@ const headerStyle = {
 
 
 
-export default TodoTitle;
+export default Title;

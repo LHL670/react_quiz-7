@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Login from "./login";
 import App from "./App";
+import SignIn from "./SignIn";
 
 export default class MyRoute extends React.Component{
     render(){
@@ -9,7 +9,7 @@ export default class MyRoute extends React.Component{
             <Router>
                 <Link to='/Sign in'></Link>
                 <Switch>
-                    <Route exact path="/" component={Login}/> 
+                    <Route exact path="/" component={SignIn}/> 
                     <Route path="/Sign in" component={App}/>
                 </Switch>
             </Router>
